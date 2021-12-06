@@ -47,6 +47,8 @@ nav.menu-desktop {
     background-color: #69829636;
     border-radius: 9px;
     display: inline-flexbox;
+    z-index: 1;
+    transition-duration: 0.5s;
 
 
 }

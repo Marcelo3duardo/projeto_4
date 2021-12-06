@@ -72,3 +72,20 @@ function slides() {
 
     }
 }
+
+//esse serve para marca automaticamente o menu 
+$(function() {
+    $(window).scroll(function(){
+        $('.menu').each(function(){
+            var windowOffY = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            var elOffY = $(this).offset().top;
+            if(elOffY+30 < (windowHeight + windowOffY) && elOffY + 30 + $(this).height() > windowOffY ){
+                $('.menu-desktop > ul > li > a').css('color','rgb(250,250,250)');
+                var target = $(this).attr('target');
+                $('.'+target).css('color','black');
+               // $('.'+target).css('border-bottom','2px solid black');
+            }
+        });
+    });
+})
