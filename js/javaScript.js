@@ -7,6 +7,8 @@ $(document).ready(function () {
 $(window).on('load', function () {
     alert("Carregou!!");
 });*/
+
+//serve para aparecer o menu mobile
 $(document).ready(function () {
 
 
@@ -47,7 +49,7 @@ $(document).ready(function () {
 
 
 });
-
+// rotacao do segundo mosaico
 setInterval(slides, 2500);
 function slides() {
 
