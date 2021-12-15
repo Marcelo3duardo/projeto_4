@@ -26,6 +26,14 @@ $(function () {
                         centerMode:true,
                         slidesToShow:2
                     }
+                }, 
+                {
+                    breakpoint:380,
+                    settings:{
+                        arrows:false,
+                        centerMode:true,
+                        slidesToShow:1
+                    }
                 }
 
             ]
@@ -45,8 +53,22 @@ $(function () {
                     centerMode:true,
                     slidesToShow:2
                 }
+            },
+            {
+                breakpoint:580,
+                settings:{
+                    arrows:false,
+                    centerMode:false,
+                    slidesToShow:1
+                }
+            },{
+                breakpoint:380,
+                settings:{
+                    arrows:false,
+                    centerMode:false,
+                    slidesToShow:1
+                }
             }
-           
 
         ]
 
