@@ -3,22 +3,55 @@
 $(function () {
 
 
-    /* slides superior dando erro 
+    // slides superior dando erro 
     
         $('.mosaico .mosaico--wraper ').slick({
-            centerMode:true,
+            centerMode:false,
             slidesToShow:6,
+            infinite:true,
+            arrows:false,
+            responsive:[
+                {
+                    breakpoint:768,
+                    settings:{
+                        arrows:false,
+                        centerMode:true,
+                        slidesToShow:3
+                    }
+                },
+                {
+                    breakpoint:580,
+                    settings:{
+                        arrows:false,
+                        centerMode:true,
+                        slidesToShow:2
+                    }
+                }
+
+            ]
         });
-    */
-        /*
+    
+        
     $('section.tratamentos .container-tartamento').slick({
         centerMode:false,
         slidesToShow:3,
         arrows:false,
-        infinite:false
+        infinite:true,
+        responsive:[
+            {
+                breakpoint:768,
+                settings:{
+                    arrows:false,
+                    centerMode:true,
+                    slidesToShow:2
+                }
+            }
+           
+
+        ]
 
     });
-    */
+    
 })
 
 

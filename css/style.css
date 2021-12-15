@@ -122,6 +122,12 @@ nav.menu-mobile ul li {
     color: rgb(32, 32, 85);
 }
 
+section.mosaico .mosaico--wraper{
+    width: 100%;
+    max-height: 400px;
+    display:block;
+}
+
 .mosaico-single {
     float: left;
     width: calc(100% / 6);
