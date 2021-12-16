@@ -50,6 +50,8 @@ $(document).ready(function () {
 
 });
 // rotacao do segundo mosaico
+
+/*
 setInterval(slides, 2500);
 function slides() {
 
@@ -74,7 +76,7 @@ function slides() {
 
     }
 }
-
+*/
 //esse serve para marca automaticamente o menu 
 $(function() {
     $(window).scroll(function(){

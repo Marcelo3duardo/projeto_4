@@ -328,19 +328,27 @@ section.depoimentos h2 {
 .mosaico-social {
     float: left;
     width: 100%;
-    background-color: rgb(255, 0, 50);
+   
 }
 
 .img-mosaico-single-social {
     float: left;
     width: calc(100% / 9);
-    padding-top: calc(100% / 9);
+    height: 135px;
     background-color: rgb(25, 25, 63);
     border: 6px solid white;
-    transition-duration: 1.5s;
+    
+   /* transition-duration: 1.5s;
     transition-delay: 0.5s;
-}
+*/}
 
+.img-mosaico-single-social img{
+  width: 100%;
+  height: 125px;
+  object-fit: cover ;
+
+}
+/*
 .img-mosaico-single-social:nth-child(1) {
     background-image: url(../images/M1.jpg);
     background-repeat: no-repeat;
@@ -358,7 +366,7 @@ section.depoimentos h2 {
     background-image: url(../images/M3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-}*/
+}
 
 .img-mosaico-single-social:nth-child(5) {
     background-image: url(../images/M4.jpg);
@@ -377,7 +385,7 @@ section.depoimentos h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+*/
 
 .facebook-chamada {
     float: left;
@@ -516,7 +524,7 @@ footer .footer-block {
 @media screen and (max-width:1024px) {
     .img-mosaico-single-social {
         width: calc(100% / 6);
-        padding-top: calc(100% / 6);
+       /* padding-top: calc(100% / 6);*/
     }
 
     .mosaico-social>div:nth-of-type(1n+7) {
@@ -611,7 +619,7 @@ footer .footer-block {
 
     .img-mosaico-single-social {
         width: calc(100% / 4);
-        padding-top: calc(100% / 4);
+       /* padding-top: calc(100% / 4);*/
     }
 
     .mosaico-social>div:nth-of-type(1n+5) {
